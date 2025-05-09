@@ -1,5 +1,6 @@
 # Prisma database & generated client
 /prisma/dev.db
+/prisma/dev.db-journal
 /prisma/migrations/
 
 # Node
@@ -7,5 +8,5 @@
 /.next
 
 # Logs
-npm-debug.log*
-yarn-debug.log*
+/logs
+*.log
