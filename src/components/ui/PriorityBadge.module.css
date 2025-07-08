@@ -1,0 +1,57 @@
+.wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.badge {
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: white;
+  text-transform: uppercase;
+  user-select: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.priority-1 {
+  background-color: #43a047;
+}
+
+.priority-2 {
+  background-color: #f9a825;
+  color: #333;
+}
+
+.priority-3 {
+  background-color: #e53935;
+}
+
+.completed {
+  background-color: #938b8b;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 8px;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 10;
+  min-width: 100px;
+  overflow: hidden;
+}
+
+.option {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.75rem;
+  cursor: default;
+  text-transform: capitalize;
+}
+
+.option:hover {
+  color: #f0f0f0;
+}
